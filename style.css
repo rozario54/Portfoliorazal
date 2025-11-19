@@ -1,0 +1,223 @@
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: #050816;
+    color: #f8f9fa;
+}
+
+
+.custom-navbar {
+    background: linear-gradient(90deg, #020617, #020617, #111827);
+    border-bottom: 1px solid #1f2937;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.nav-links-wrapper .nav-link {
+    color: #e5e7eb;
+    margin-left: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-links-wrapper .nav-link:hover {
+    color: #ffffff;
+}
+
+
+.hero-wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.hero-text-block {
+    max-width: 640px;
+}
+
+.hero-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 999px;
+    border: 1px solid #4b5563;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    color: #d1d5db;
+}
+
+.hero-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #9ca3af;
+    margin-bottom: 16px;
+}
+
+.hero-description {
+    font-size: 14px;
+    color: #9ca3af;
+    margin-bottom: 24px;
+    max-width: 560px;
+}
+
+.accent {
+    color: #60a5fa;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    border-color: #2563eb;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 999px;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+.btn-outline-light {
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    border-width: 1px;
+}
+
+
+.photo-full-wrapper {
+    width: 100%;
+    max-width: 350px;     
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid #1f2937;
+    background-color: #0b0f1a;
+    padding: 8px;
+}
+
+.photo-full-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;     
+    display: block;
+    border-radius: 8px;
+}
+
+
+
+.section-wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.info-card {
+    background: radial-gradient(circle at top left, #111827, #020617);
+    border-radius: 16px;
+    border: 1px solid #1f2937;
+    padding: 24px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.section-text {
+    font-size: 14px;
+    color: #d1d5db;
+    margin-bottom: 12px;
+}
+
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.skill-pill {
+    font-size: 13px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background-color: #111827;
+    border: 1px solid #1f2937;
+    color: #e5e7eb;
+}
+
+.contact-details {
+    margin-top: 12px;
+}
+
+.contact-item {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.contact-label {
+    font-weight: 500;
+    color: #e5e7eb;
+    margin-right: 4px;
+}
+
+.contact-link {
+    color: #93c5fd;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+
+.footer-wrapper {
+    border-top: 1px solid #1f2937;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 24px;
+}
+
+.footer-text {
+    font-size: 12px;
+    text-align: center;
+    color: #6b7280;
+}
+
+
+@media (max-width: 768px) {
+    .hero-wrapper {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .hero-title {
+        font-size: 28px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .profile-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .photo-card {
+        margin-top: 32px;
+    }
+}
